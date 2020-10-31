@@ -36,7 +36,7 @@ function setup() {
         packageBody = Bodies.circle(width/2 , 200 , 5 , {restitution:0.7, isStatic:true});
 	World.add(world, packageBody);
 
-	ground=Bodies.rectangle(200,390,200,20,ground_options)
+	ground=Bodies.rectangle(200,390,200,20,{isStatic:true})
 	World.add(world,ground)
 
 	rectangle2= new Rectangle (500,610,20,100)
