@@ -52,9 +52,10 @@ background ("black")
 Engine.update(engine);
 packageSprite.x= packageBody.position.x 
 packageSprite.y= packageBody.position.y 
-rectangle1.display ();
+
 rectangle2.display ();
 rectangle3.display (); 
+rectangle1.display ();
 drawSprites();
 }
 
